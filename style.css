@@ -1,0 +1,58 @@
+@font-face{
+  src : url('fonts/Amaranth-Bold.ttf');
+  font-family: Amaranth;
+}
+@font-face{
+  src : url('fonts/Algerian Regular.ttf');
+  font-family: Algerian;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.main-cover{
+  padding: 8px;
+  background: linear-gradient( -30deg, #46007B,#3BA0AA);
+  text-align: center;
+  min-width: 280px;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column
+}
+.time{
+  font-family: Amaranth;
+  font-size: 45px;
+}
+.am-pm{
+  font-family: Algerian;
+  font-size: 19px
+}
+.am,.pm{
+  color: #CFCFCF;
+  font-weight:normal;
+}
+.dates{
+  font-family: Amaranth;
+}
+.events{
+  font-family: Algerian;
+  font-style: 20px;
+  margin: 8px 0;
+  background: linear-gradient(90deg,#206CD7,#E51414);
+  padding: 5px 0;
+  border-radius: 2px;
+  border: 1px solid #8BED86;
+  width: 80%;
+  letter-spacing: 1.5px;
+  word-spacing: 2px;
+}
