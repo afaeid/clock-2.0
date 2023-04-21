@@ -98,3 +98,5 @@ var formate1to10 = (value) => {
  }
  return value;
 }
+
+//Designedand developed by MD Afaeid Sarler
